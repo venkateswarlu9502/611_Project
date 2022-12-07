@@ -1,0 +1,25 @@
+{
+  "name": "calendar_weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YBharath1831/Calendar-Date.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YBharath1831/Calendar-Date/issues"
+  },
+  "homepage": "https://github.com/YBharath1831/Calendar-Date#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  }
+}
