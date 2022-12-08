@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <link rel="stylesheet" type="text/css"href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <script src="index.js"></script>
+        <title> Calendar Date</title>
+    </head>
+    <body class="page-body">
+        <form  class="centered" onsubmit="return(processDate());">
+            <div class="formBody">
+                <h1 style="text-align:center;">Calendar Date Calculator</h1>
+                <label for="date">Enter Date:</label>
+                <!-- <input  class="input-group date" data-provide="datepicker"></input><br></br> -->
+                <input type ="date" id="date" required pattern="\d{4}-\d{2}-\d{2}" ></input><br></br>
+                <label for="prevDate">Previous Date:</label>
+                <input type ="date" id="prevDate"></input><br></br>
+                <label for="nextDate">Next Date:</label>
+                <input type ="date" id="nextDate"></input><br></br>
+                <label for="Day">Day Today:</label>
+                <input type ="text" id ="Day"></input><br></br>
+                <label for="Zodiac">Zodiac Sign:</label>
+                <input type ="text" id ="Zodiac"></input><br></br>
+                <label for="shopDays">Shopping Days:</label>
+                <input type ="text" id ="shopDays"></input><br></br>
+                <button type="submit" id ="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
